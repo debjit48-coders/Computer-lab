@@ -1,0 +1,20 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int p,n,t;
+    float r,c;
+    printf("enter the principal:");
+    scanf("%d",&p);
+    printf("enter the rate:");
+    scanf("%f",&r);
+    printf("enter the number of times interest compound:");
+    scanf("%d",&n);
+    printf("enter the time:");
+    scanf("%d",&t);
+    printf("%f",c=p*(1+r/n));
+    int y=n*t;
+    double a=(c,y);
+    printf("lf",&a);
+    return 0;
+}
