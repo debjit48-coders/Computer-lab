@@ -3,7 +3,7 @@
 #include <math.h>
 
 int main() {
-    float p,r,t,CI;
+    float p,r,t;
     printf("Enter the principal amount:");
     scanf("%f",&p);
     printf("Enter the rate amount:");
@@ -18,3 +18,4 @@ int main() {
 
     return 0;
 }
+
